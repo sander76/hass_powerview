@@ -1,0 +1,15 @@
+scenes_refresh:
+  description: Get a list of all scenes
+
+  fields:
+    entity_id:
+      description: Name(s) of cover(s) to open
+      example: 'cover.living_room'
+
+scene_activate:
+  description: Activate a scene
+
+  fields:
+    entity_id:
+      description: Name(s) of cover(s) to close
+      example: 'cover.living_room'
